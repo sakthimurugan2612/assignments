@@ -1,0 +1,30 @@
+.addnew button{
+    color:#ffffff;
+    background-color: rgb(41, 141, 235);
+  
+    margin-left: 73%;
+    font-size: 113%;
+    margin-top: 3%;
+}
+.manage button{
+    color:#ffffff;
+    background-color: rgb(41, 141, 235);
+    margin-left: 31%;
+    margin-top: 6%;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
