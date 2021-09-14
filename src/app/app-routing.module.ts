@@ -1,13 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import{ManagepostsComponent} from './manageposts/manageposts.component';  
-import { NewComponent } from './new/new.component';
+import {JuncComponent } from './junc/junc.component';
+import { SpecsComponent } from './specs/specs.component';
+import { SignupComponent } from './signup/signup.component';
+import AuthGuard from './auth/Authgaurd';
+
 
 const appRoutes:Routes = [
-  {path:'', component: HomeComponent },
-{path:'manageposts', component: ManagepostsComponent },
-{path:'new', component: NewComponent },
+
+
+
+{path:'spec/:id', component: SpecsComponent ,canActivate: [AuthGuard] },
+{path:'junc', component: JuncComponent ,canActivate: [AuthGuard] },
+{path:'specs', component: SpecsComponent ,canActivate: [AuthGuard] },
+{path:'', component:  SignupComponent},
+
 ];
 
 
