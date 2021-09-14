@@ -1,0 +1,12 @@
+<h2>Mobile World</h2>
+
+<div class="center">
+   
+<div class="gallery" *ngFor="let pic of image">
+      <img [src]="pic.imageurl" [routerLink]="['../spec',pic.id]" width="600" height="500">
+   
+    <div class="desc">{{pic.model}}</div>
+  </div>
+
+
+ </div>

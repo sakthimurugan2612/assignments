@@ -1,0 +1,50 @@
+{
+    "posts": [
+      { "id": 1, "imageurl": "https://images.samsung.com/is/image/samsung/assets/in/z-fold2-m.jpg", 
+        "model": "Samsung ",
+        "ram": "4GB",
+        "internalstorage": "128GB",
+        "about": "Samsung is the best company in the mobile production industry "},
+
+        { "id": 2, "imageurl": "https://images.ctfassets.net/wcfotm6rrl7u/4i4XvhbI56LjO30W51cxTW/7a564d5f75ad85de2d21b02b61686f5c/nokia-G20-night-front_back-india.png?h=600&fm=webp", 
+            "model": "Nokia ",
+            "ram": "6GB",
+            "internalstorage": "64GB",
+            "about": "Nokia is the best company in the mobile production industry"},
+            { "id": 3, "imageurl": "https://m.media-amazon.com/images/I/61-+sJrG3-L._AC_SX679_.jpg", 
+                "model": "oneplus ",
+                "ram": "8GB",
+                "internalstorage": "256GB",
+                "about": "oneplus is the best company in the mobile production industry"},
+                { "id":4, "imageurl": "https://storage.sg.content-cdn.io/cdn-cgi/image/%7Bwidth%7D,%7Bheight%7D,quality=75,format=auto/in-resources/3da6157f-93b7-4d52-8005-c008a574721a/Images/ProductImages/Source/MOBVO155-1.jpg", 
+                    "model": "vivo ",
+                    "ram": "4GB",
+                    "internalstorage": "128GB",
+                    "about": "vivo is the best company in the mobile production industry "},
+
+                    { "id": 5, "imageurl": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/a15/navigation/A15-navigation-blue-v2.png", 
+                        "model": "oppo ",
+                        "ram": "3GB",
+                        "internalstorage": "64GB",
+                        "about": "oppo is the best company in the mobile production industry "},
+
+                        { "id": 6, "imageurl": "https://www.gizmochina.com/wp-content/uploads/2020/03/Realme-6-Pro-2.jpg",
+                             "model": "Realme",
+                             "ram": "4GB",
+                            "internalstorage": "128GB",
+                            "about": "realme is the best company in the mobile production industry"},
+
+
+                            { "id": 7, "imageurl": "https://cdn1.smartprix.com/rx-i951V043J-w1200-h1200/motorola-edge-s-pro.jpg",
+                                 "model": "Motorola",
+                                 "ram": "3GB",
+                                "internalstorage": "32GB",
+                                "about": "motorola is the best company in the mobile production industry"},
+
+                                { "id": 8, "imageurl": "https://i01.appmifile.com/webfile/globalimg/in/cms/3EC458F8-DBC7-156A-635D-6B13FE1A78E0.jpg",
+                                     "model": "Redmi ",
+                                     "ram": "2GB",
+                                    "internalstorage": "16GB",
+                                    "about": "redmi is the best company in the mobile production industry "}
+        ]
+  }
