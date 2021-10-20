@@ -1,0 +1,22 @@
+<div class="container">  
+  <form  id="contact" [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+    
+    <div class="box">
+      <input placeholder="Your name" type="text" formControlName="name">
+    </div>
+    <div class="box">
+      <input placeholder="Your Email Address" type="email"  formControlName="email" >
+  </div>
+    <div class="box">
+      <input placeholder="Your Phone Number (optional)" type="tel" formControlName="ph" >
+    </div>
+    
+    <div class="box">
+      <textarea placeholder="Type your message here...."  formControlName="msg"></textarea>
+    </div>
+    <div class="box" >
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </div>
+
+  </form>
+</div>
